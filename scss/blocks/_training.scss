@@ -1,0 +1,137 @@
+.training {
+
+
+    
+    &__list {
+
+
+        @media (max-width: $mobile-width) {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+            }
+    }
+
+    &__item {
+        margin: 30px 0 50px 0;
+        list-style-type: none;
+        text-align: center;
+
+        @media (max-width: $mobile-width) {
+            width: 300px;
+            border-bottom: 1px solid gray;
+            }
+        
+
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 30px;
+        color: #fff;
+        border-bottom: 1px solid #d8d6d6;
+        padding: 0 0 15px 0;
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        margin: 30px auto;
+    }
+
+    &__subtitle {
+        text-align: center;
+        line-height: 25px;
+        font-size: 20px;
+        margin: 15px 0 15px 0;
+        color: #e3cc8b;
+    }
+
+    &__subtitle-one {
+        text-align: center;
+        line-height: 25px;
+        font-size: 20px;
+        margin: 15px 0 15px 0;
+        color: #e3cc8b;
+    }
+
+    &__subtitle-two {
+        text-align: center;
+        line-height: 25px;
+        font-size: 20px;
+        margin: 15px 0 15px 0;
+        color: #fff;
+    }
+
+    &__subtitle-text {
+        text-align: center;
+        font-size: 20px;
+        line-height: 20px;
+        color: #fff;
+    }
+
+    &__question {
+        text-align: center;
+        font-size: 20px;
+        margin: 10px 0 10px 0;
+        color: #e3cc8b
+    }
+
+    &__text{
+        line-height: 20px;
+        padding: 10px;
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+
+        @media (max-width: $mobile-width) {
+            font-size: 14px;
+            }
+    }
+
+    &__link-wrp {
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+
+    &__link {
+        font-size: 20px;
+        
+    }
+
+    &__duration{
+        text-align: center;
+        font-size: 20px;
+        padding: 5px;
+        color: #fff;
+    }
+
+    &__price{
+        text-align: center;
+        font-size: 20px;
+        padding: 5px;
+        color: #e3cc8b;
+    }
+
+    &__btn-wrp{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__btn-link {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    &__btn {
+        align-items: center;
+        font-size: 16px;
+        padding: 10px;
+        margin: 15px 0 10px 0;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    &__matrix {
+        color: red;
+    }
+}

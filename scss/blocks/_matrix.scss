@@ -1,0 +1,20 @@
+.matrix {
+
+    &__wrapper{
+        text-align: center;
+        margin: 10 0 0 0;
+        display: none;
+    }
+
+    &__wrapper-text {
+        font-size: 25px;
+        margin: 10px 0 0 0;
+        color: #fff;
+    }
+
+    &__wrapper-date {
+        margin: 10px 0 25px 0;
+        font-size: 20px;
+        color: #fff;
+    }
+}

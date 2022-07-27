@@ -1,0 +1,75 @@
+.box {
+
+    &-1 {
+        grid-area:one;
+        border-right: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    &-2 {
+        grid-area:two;
+        border-right: 1px solid lightgrey;
+    }
+
+    &-3 {
+        grid-area:three;
+        border-top: 1px solid lightgrey;
+        border-right: 1px solid lightgrey;
+    }
+
+    &-4 {
+        grid-area:four;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    &-5 {
+        grid-area:five;
+    }
+
+    &-6 {
+        grid-area:six;
+        border-top: 1px solid lightgrey;
+    }
+
+    &-7 {
+        grid-area:seven;
+        border-left: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    &-8 {
+        grid-area:eight;
+        border-left: 1px solid lightgrey;
+    }
+
+    &-9 {
+        grid-area:nine;
+        border-top: 1px solid lightgrey;
+        border-left: 1px solid lightgrey;
+    }
+
+    &-1,
+    &-2,
+    &-3,
+    &-4,
+    &-5,
+    &-6,
+    &-7,
+    &-8,
+    &-9 {
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+        font-size: 22px;
+        color: #fff;
+        /*border-radius: 5px;*/
+       /* border: 1px solid lightgray;*/
+    }
+
+    &__paragraf {
+        font-size: 15px;
+        transform: translateY(15px);
+        color: #fff;
+    }
+}

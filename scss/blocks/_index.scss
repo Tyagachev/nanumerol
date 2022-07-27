@@ -1,0 +1,279 @@
+.index {
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        margin: 0 0 15px 0;
+    }
+
+    &__title--wrp {
+        margin: 30px 0 60px 0;
+    }
+    
+
+    &__title {
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        padding: 0 0 10px 0;
+        margin: 15px 0 0 0;
+
+        @media (max-width: $mobile-width) {
+            line-height: 25px;
+            }
+    }
+
+   &__title--small {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    margin: 15px 0 0 0;
+
+    @media (max-width: $mobile-width) {
+        line-height: 20px;
+        }
+   }
+    
+    &__subtitle {
+        color: #fff;
+        text-align: center;
+        line-height: 25px;
+        font-size: 25px;
+        margin: 0 auto;
+        max-width: 530px;
+        border-bottom: 1px solid gray;
+        padding: 30px 0 10px 0;
+        color: #e3cc8b;
+    }
+    
+
+    &__service-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 15px 0 0 0;
+
+        @media (max-width: $mobile-width) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+    }
+
+    &__service-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 295px;
+        margin: 3px 3px 10px 3px;
+        border:1px solid #d8d1d1;
+        border-radius: 15px;
+        padding: 10px 10px 10px 10px;
+        background-color: #fff6e9;
+    }
+
+    &__service-bckg {
+        background-color: #cebea4;
+    }
+
+    &__service-img {
+        width: 100%;
+        border-radius: 7px;
+    }
+
+    &__service-title {
+        text-align: center;
+        color: #504d4d;
+        padding: 5px 0 5px 0;
+        font-size: 16px;
+        font-family: sans-serif;
+    }
+
+    &__service-text {
+        text-align: center;
+        color: #504d4d;
+        font-family: sans-serif;
+        padding: 5px 0 10px 0;
+    }
+
+    &__service-price {
+        color: #504d4d;
+        font-family: sans-serif;
+        padding: 5px 0 5px 0;
+    }
+
+    &__service-btn {
+        width: 215px;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        color: #ffffff;
+        background-color: #ae71d8;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 0.3s;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    &__service-btn:hover {
+        background-color:#cc8ff5;
+        box-shadow: 0 15px 20px rgba(230, 227, 230, 0.4);
+        color: white;
+    }
+
+    &__service-entry-insta {
+        width: 110px;
+        height: 50px;
+        background-color: transparent;
+        border: 2px solid #e20a52;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        cursor: pointer;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        padding: 8px 0 5px 0px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        transition: .3s;
+
+        @media (max-width: $mobile-width) {
+            margin: 10px;
+            }
+    }
+    
+    &__service-entry-insta:hover &__ico-insta {
+        fill: white;
+    }
+
+    &__service-entry-insta:hover {
+        background: linear-gradient(90deg, #9f2ef4,#f97d64,#ffcd42);
+        box-shadow: 0 15px 20px #f5901d66;
+        border: none;
+    }
+
+
+    &__service-entry-whatsapp {
+        width: 110px;
+        height: 50px;
+        background-color: transparent;
+        border: 2px solid #0ae226;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        cursor: pointer;
+        -webkit-transition: 0.3s;
+        padding: 5px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        transition: .3s;
+    }
+    
+    &__service-entry-whatsapp:hover &__ico-whatsapp {
+        fill: white;
+    }
+
+    &__service-entry-whatsapp:hover {
+        background-color:#0ae226;
+        box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    }
+
+    &__service-entry-telegram {
+        width: 110px;
+        height: 50px;
+        background-color: transparent;
+        border: 2px solid #008fff;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        cursor: pointer;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        transition: .3s;
+
+        @media (max-width: $mobile-width) {
+            margin: 10px;
+            }
+    }
+
+    &__ico-whatsapp {
+        fill:#0ae226;
+        width: 30px;
+    }
+
+    &__ico-telegram {
+        fill:#008fff;
+        width: 30px
+    }
+
+    &__ico-insta{
+        fill:#e20a52;
+        width: 30px
+    }
+
+    &__service-entry-telegram:hover &__ico-telegram {
+        fill: white;
+    }
+    &__service-entry-telegram:hover{
+        background-color: #008fff;
+        box-shadow: 0 15px 20px rgba(99, 133, 247, 0.4);
+    }
+
+    &__btn-wrp {
+        display: flex;
+        justify-content: center;
+        margin: 30px 0 0 0;
+
+        @media (max-width: $mobile-width) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+    }
+
+    &__btn-subtitle {
+        text-align: center;
+    }
+
+    &__ico-wrp {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__consultation-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 15px 0 0 0;
+
+        @media (max-width: $mobile-width) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+    }
+
+    &__consultation-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 415px;
+        margin: 3px 3px 10px 3px;
+        border:1px solid #d8d1d1;
+        border-radius: 7px;
+        padding: 10px 10px 10px 10px;
+        background-color: #fff6e9;
+    }
+
+
+
+}

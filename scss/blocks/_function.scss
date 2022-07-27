@@ -1,0 +1,83 @@
+.function {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+    &__wrp {
+        display: block;
+    }
+
+    &__input-day{
+        width: 50px;
+        margin: 0 0 0 3px;
+        font-size: 25px;
+        color: gray;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+
+    &__input-month {
+        width: 60px;
+        margin: 0 0 0 3px;
+        font-size: 25px;
+        color: gray;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+
+    &__input-year {
+        width: 90px;
+        height: 40px;
+        margin: 0 0 0 3px;
+        font-size: 25px;
+        color: gray;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+
+    &__button-f {
+        width: 226px;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        color: #ffffff;
+        background-color: #ae71d8;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 0.3s;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    &__button-f:hover {
+        background-color:#cc8ff5;
+        box-shadow: 0 15px 20px rgba(230, 227, 230, 0.4);
+        color: white;
+    }
+
+    &__number {
+        font-size: 20px;
+        margin: 5px 0 5px 0;
+    }
+
+    &__number--curse {
+        font-size: 20px;
+        color: white;
+        line-height: 20px;
+        margin: 20px 0 0 0;
+    }
+
+    &__number--pledge {
+        font-size: 20px;
+        color: white;
+        line-height: 20px;
+        margin: 20px 0 0 0;
+    }
+    
+    
+}

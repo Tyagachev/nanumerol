@@ -1,0 +1,17 @@
+.main {
+    &__title {
+        text-align: center;
+        font-size: 25px;
+        margin: 0 0 10px 0;
+    }
+
+    &__subtitle {
+        text-align: center;
+        padding: 0 0 5px 0;
+    }
+
+    &__list-wrp {
+        display: flex;
+        justify-content: center;
+    }
+}

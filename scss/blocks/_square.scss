@@ -1,0 +1,23 @@
+.square {
+
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        margin: 0 0 10px 0;
+    }
+
+    &__list {
+        display: grid;
+        gap:2px;
+        grid-template-columns: repeat(3,120px);
+        grid-template-rows: repeat(3, 120px);
+        grid-template-areas:
+        "one four seven"
+        "two five eight"
+        "three six nine"
+    }
+
+    &__item {
+        height: 100px;
+    }
+}

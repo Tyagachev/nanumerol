@@ -1,0 +1,80 @@
+.header {
+    width: 100%;
+    min-height: 60px;
+    border-bottom: 1px solid gray;
+    padding: 6px;
+
+    &__title {
+        display: flex;
+        align-items: center;
+    }
+    
+    &__title-logo{
+        color: #fff;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        //justify-content: center;
+
+        @media (max-width: $mobile-width) {
+            margin: 0 20px 0 20px;
+            }
+    }
+
+    &__title-link {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        height: 20px;
+    }
+
+    &__title-boo{
+        font-family:'Parisienne';
+        font-size: 40px;
+        @media (max-width: $mobile-width) {
+            font-size: 35px;
+            }
+    }
+
+    &__title-svg {
+        width: 65px;
+
+        @media (max-width: $mobile-width) {
+            width: 50px;
+            }
+    }
+
+    &__mobile {
+        @media (max-width: $laptop-width) {
+            display: none;
+            }
+        @media (max-width: $mobile-width) {
+            display: block;
+            }
+        }
+
+    &__laptop {
+        @media (max-width: $laptop-width) {
+            display: flex;
+            justify-content: space-between;
+            //height: 60px;
+            }
+        @media (max-width: $mobile-width) {
+            display: none;
+            }
+    }
+
+    &__hidden-box {
+        display: block;
+        @media (max-width: $mobile-width) {
+            width: 30px;
+            height: 30px;
+            }
+        }
+        
+
+    &__laptop-wrp {
+        display: flex;
+        align-items: center;
+    }
+    
+}

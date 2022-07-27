@@ -1,0 +1,133 @@
+.consultation {
+    max-width: 90%;
+    margin: 0 auto;
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0 0 0;
+    }
+
+    &__subtitle {
+        color: #fff;
+        text-align: center;
+        line-height: 25px;
+        font-size: 25px;
+        margin: 0 auto;
+        max-width: 530px;
+        color: #e3cc8b;
+    }
+
+    &__title-list{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__title-top {
+        text-align: center;
+        font-size: 30px;
+        color: #fff;
+        border-bottom: 1px solid #d8d6d6;
+        padding: 0 0 15px 0;
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        margin: 30px auto;
+    }
+
+    &__title-view {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 20px 0 0;
+    }
+
+    &__title-view-child {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__title-text {
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 16px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    &__price {
+        color: #e3cc8b;
+        font-family: sans-serif;
+        font-size: 16px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    &__item {
+        border-bottom: 0.5px solid gray;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__text {
+        color: #ffffff;
+        font-family: sans-serif;
+        padding: 5px 0 5px 0;
+        font-size: 16px;
+        line-height: 20px;
+
+        @media (max-width: $mobile-width) {
+            font-size: 14px;
+            }
+    }
+
+    &__text-wrp {
+        text-align: center;
+    }
+
+    &__video {
+        max-width: 100%;
+        display: flex;
+        margin: 15px auto;
+    }
+
+    &__bio-img {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    &__item-ico {
+        min-width: 100px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__ico-check {
+        width: 20px;
+        height: 20px;
+        padding: 4px;
+        border: 1px solid gray;
+        border-radius: 20px;
+        margin: 0 10px 0 0;
+    }
+
+    &__title-check-big {
+        width: 40px;
+        height: 40px;
+        padding: 4px;
+        border: 1px solid gray;
+        border-radius: 30px;
+        margin: 10px 0 10px 0;
+    }
+
+    &__title-check {
+        width: 20px;
+        height: 20px;
+        padding: 4px;
+        border: 1px solid gray;
+        border-radius: 20px;
+    }
+}

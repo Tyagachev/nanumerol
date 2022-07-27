@@ -1,0 +1,66 @@
+.burgermenu {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    transform: translateY(-5px);
+
+    &__link {
+        @media (max-width: $laptop-width) {
+            padding: 7px 16px 7px 16px;
+            display: block;
+            text-align: center;
+            color: #fff;
+            font-size: 17px;
+            text-transform: uppercase;
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+            cursor: pointer;
+            }
+
+        @media (max-width: $mobile-width) {
+            padding: 7px 0 0px 0;
+            display: block;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            text-transform: uppercase;
+            text-decoration: none;
+            }
+
+    }
+
+    &__link::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        display: block;
+        background: none repeat scroll 0 0 transparent;
+        height: 2px;
+        width: 0;
+        background: #e3cc8b;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        color: #e3cc8b;
+    }
+
+    &__link:hover::after {
+            width: 100%; 
+            left: 0; 
+        }
+
+    &__menu-off {
+        display: none;
+        }
+
+    &__list {
+        @media (max-width: $laptop-width) {
+            display: flex;
+            }
+        @media (max-width: $mobile-width) {
+            display: flex;
+            flex-direction: column;
+            }
+    }
+}
