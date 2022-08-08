@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <script defer src="./js/background.js"></script>
+    <script defer src="./js/burger.js"></script>
+    <script defer src="./js/slider-review.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Добро пожаловать на мой сайт! Провожу консультации, тренинги. Использую Пифагорийскую систему, событийную нумерологию, а также знания кармической нумерологии для составления прогнозов.">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="shortcut icon" href="./img/ico/logo.svg">
+	<link rel="icon" href="https://nanumerol.ru/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="https://nanumerol.ru/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="https://nanumerol.ru/favicon-16x16.png" type="image/png" sizes="16x16">
+    <title>Nanumerol.ru</title>
+</head>
+<body>
+    <div class="canvas_wrp">
+        <canvas></canvas>
+    </div>
+    
+    <header class="header container">
+        <div class="header__mobile">
+        <div class="zhmyak__wrp container">
+            <div class="zhmyak__img-wrp">
+                <h1 class="header__title-logo"><img class="header__title-svg" src="./img/ico/logo.svg" alt=""><a class="header__title-link" href="./index.html"><span class="header__title-boo">Nanumerol.ru</span></a></h1>          
+                <div class="zhmyak__img"><svg class="svg__color" width="30" height="30"viewBox="0 0 30 30"><path d="M2,4A1,1,0,0,1,3,3H21a1,1,0,0,1,0,2H3A1,1,0,0,1,2,4Zm1,9H21a1,1,0,0,0,0-2H3a1,1,0,0,0,0,2Zm0,8H21a1,1,0,0,0,0-2H3a1,1,0,0,0,0,2Z"/></svg>
+                    </div>
+                <div class="zhmyak__alt zhmyak__alt-off"><svg class="svg__color" x="0px" y="0px" width="30px" height="30px"
+                    viewBox="0 0 96 96" enable-background="new 0 0 96 96" xml:space="preserve">
+                    <switch>
+                    <foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+                    </foreignObject>
+                    <g i:extraneous="self">
+                    <path d="M53.657,48l25.171-25.172c1.562-1.562,1.562-4.095,0-5.656c-1.562-1.562-4.094-1.562-5.656,0L48,42.343L22.829,17.172
+                    c-1.562-1.562-4.095-1.562-5.657,0c-1.562,1.562-1.562,4.095,0,5.656L42.344,48L17.172,73.172c-1.562,1.562-1.562,4.095,0,5.656
+                    C17.953,79.609,18.977,80,20,80s2.048-0.391,2.829-1.172L48,53.657l25.172,25.171C73.953,79.609,74.977,80,76,80
+                    s2.048-0.391,2.828-1.172c1.562-1.562,1.562-4.095,0-5.656L53.657,48z"/>
+                    </g>
+                    </switch></svg>
+                </div>
+            </div>
+            <div class="burgermenu burgermenu__menu-off ">
+                <ul class="burgermenu__list">
+                    <li><a class="burgermenu__link" href="./about.html">обо мне</a></li>
+                    <li><a class="burgermenu__link" href="./training.html">тренинги</a></li>
+                    <li><a class="burgermenu__link" href="./consultation.html">консультации</a></li>
+                    <li><a class="burgermenu__link" href="./matrix.html">расчет матрицы</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header__laptop container">
+            <div class="header__title"><h1 class="header__title-logo"><img class="header__title-svg" src="./img/ico/logo.svg" alt=""><a class="header__title-link" href="./index.html"><span class="header__title-boo">Nanumerol.ru</span></a></h1></div>
+            <div class="header__laptop-wrp">
+            <ul class="burgermenu__list">
+                <li><a class="burgermenu__link" href="./about.html">обо мне</a></li>
+                <li><a class="burgermenu__link" href="./training.html">тренинги</a></li>
+                <li><a class="burgermenu__link" href="./consultation.html">консультации</a></li>
+                <li><a class="burgermenu__link" href="./matrix.html">расчет матрицы</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+    <main>
+        <section>
+            <h1 class="visually-hidden">нумерология</h1>
+            <div class="container">
+                <div class="index">
+                    <div class="index__title--wrp">
+                        <h2 class="index__title">Направление работы с клиентами</h2>
+                    </div>
+                    <h3 class="index__subtitle">Консультация по биоритмам</h3>
+                    <div class="index__consultation-list">
+                        <div class="index__consultation-item">
+                            <img class="index__service-img" src="./img/bio1.jpg" alt="100x100">
+                            <a class="" href="./consultation-bio.html"><button class ="index__service-btn">Что входит в консультацию?</button></a>
+                            <p class="index__service-title">"Биоритмы"</p>
+                            <p class="index__service-price">Стоимость - 1000 р.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="index__subtitle">Консультации</h3>
+                    <div class="index__consultation-list">
+                        <div class="index__consultation-item">
+                            <img class="index__service-img" src="./img/vzrs.jpg" alt="100x100">
+                            <a class="" href="./consultation-adult.html"><button class ="index__service-btn">Что входит в консультацию?</button></a>
+                            <p class="index__service-title">"Взрослая индивидуальная"</p>
+                            <p class="index__service-price">Стоимость - 2000 р.</p>
+                        </div>
+                        <div class="index__consultation-item">
+                            <img class="index__service-img" src="./img/chil.jpg" alt="100x100">
+                            <a class="" href="./consultation-children.html"><button class ="index__service-btn">Что входит в консультацию?</button></a>
+                            <p class="index__service-title">"Детская"</p>
+                            <p class="index__service-price">Стоимость - 3000 р.</p>
+                        </div>
+                        <div class="index__consultation-item">
+                            <img class="index__service-img" src="./img/sovm.jpg" alt="100x100">
+                            <a class="" href="./consultation-compatibility.html"><button class ="index__service-btn">Что входит в консультацию?</button></a>
+                            <p class="index__service-title">"Совместимость"</p>
+                            <p class="index__service-price">Стоимость - 2000 р.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="index__subtitle">Тренинги</h3>
+                        <div class="index__service-list">
+                            <div class="index__service-item">
+                                <img class="index__service-img" src="./img/obid.jpg" alt="100x100">
+                                <a class="" href="./training-practice-relations.html"><button class ="index__service-btn">Подробнее про тренинг</button></a>
+                                <p class="index__service-title">"Очищение от обид"</p>
+                                <p class="index__service-price">Стоимость - 2000 р.</p>
+                            </div>
+                            <div class="index__service-item">
+                                <img class="index__service-img" src="./img/schste.jpg" alt="100x100">
+                                <a class="" href="./training-practice-happy-life.html"><button class ="index__service-btn">Подробнее про тренинг</button></a>
+                                <p class="index__service-title">"Практика счастливой жизни"</p>
+                                <p class="index__service-price">Стоимость - 1500 р.</p>
+                            </div>
+                            <div class="index__service-item">
+                                <img class="index__service-img" src="./img/izobilie.jpg" alt="100x100">
+                                <a class="" href="./training-practice-abundance.html"><button class ="index__service-btn">Подробнее про тренинг</button></a>
+                                <p class="index__service-title">"Практика изобилия"</p>
+                                <p class="index__service-price">Стоимость - 1000 р.</p>
+                            </div>
+                            <div class="index__service-item">
+                                <img class="index__service-img" src="./img/garmpnia.jpg" alt="100x100">
+                                <a class="" href="./training-practice-resement.html"><button class ="index__service-btn">Подробнее про тренинг</button></a>
+                                <p class="index__service-title">"Практика взаимоотношений"</p>
+                                <p class="index__service-price">Стоимость - 1500 р.</p>
+                            </div>
+                    </div>
+
+                    <h3 class="index__subtitle">Записаться на тренинг или консультацию</h3>
+
+                    
+                    <div class="index__btn-wrp">
+                        <a class="" href=https://wa.me/79164990006?text=><button class ="index__service-entry-whatsapp"><svg class="index__ico-whatsapp"  x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"><g>
+                            <g xmlns="http://www.w3.org/2000/svg" id="WA_Logo">
+                                <g>
+                                    <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M20.463,3.488C18.217,1.24,15.231,0.001,12.05,0    C5.495,0,0.16,5.334,0.157,11.892c-0.001,2.096,0.547,4.142,1.588,5.946L0.057,24l6.304-1.654    c1.737,0.948,3.693,1.447,5.683,1.448h0.005c6.554,0,11.89-5.335,11.893-11.893C23.944,8.724,22.708,5.735,20.463,3.488z     M12.05,21.785h-0.004c-1.774,0-3.513-0.477-5.031-1.378l-0.361-0.214l-3.741,0.981l0.999-3.648l-0.235-0.374    c-0.99-1.574-1.512-3.393-1.511-5.26c0.002-5.45,4.437-9.884,9.889-9.884c2.64,0,5.122,1.03,6.988,2.898    c1.866,1.869,2.893,4.352,2.892,6.993C21.932,17.351,17.498,21.785,12.05,21.785z M17.472,14.382    c-0.297-0.149-1.758-0.868-2.031-0.967c-0.272-0.099-0.47-0.149-0.669,0.148s-0.767,0.967-0.941,1.166    c-0.173,0.198-0.347,0.223-0.644,0.074c-0.297-0.149-1.255-0.462-2.39-1.475c-0.883-0.788-1.48-1.761-1.653-2.059    s-0.018-0.458,0.13-0.606c0.134-0.133,0.297-0.347,0.446-0.521C9.87,9.97,9.919,9.846,10.019,9.647    c0.099-0.198,0.05-0.372-0.025-0.521C9.919,8.978,9.325,7.515,9.078,6.92c-0.241-0.58-0.486-0.501-0.669-0.51    C8.236,6.401,8.038,6.4,7.839,6.4c-0.198,0-0.52,0.074-0.792,0.372c-0.272,0.298-1.04,1.017-1.04,2.479    c0,1.463,1.065,2.876,1.213,3.074c0.148,0.198,2.095,3.2,5.076,4.487c0.709,0.306,1.263,0.489,1.694,0.626    c0.712,0.226,1.36,0.194,1.872,0.118c0.571-0.085,1.758-0.719,2.006-1.413c0.248-0.694,0.248-1.29,0.173-1.413    C17.967,14.605,17.769,14.531,17.472,14.382z"  data-original="#000000"/>
+                                </g>
+                            </g></svg></button></a>
+                            <a class="" href=https://t.me/nanumerol><button class ="index__service-entry-telegram"><svg class="index__ico-telegram"   x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><g xmlns="http://www.w3.org/2000/svg" id="_01_align_center" data-name="01 align center"><path d="M1.444,6.669a2,2,0,0,0-.865,3.337l3.412,3.408V20h6.593l3.435,3.43a1.987,1.987,0,0,0,1.408.588,2.034,2.034,0,0,0,.51-.066,1.978,1.978,0,0,0,1.42-1.379L23.991.021ZM2,8.592l17.028-5.02L5.993,16.586v-4Zm13.44,13.424L11.413,18h-4L20.446,4.978Z"  data-original="#000000"/></g></g></svg></button></a>
+                            <a class="" href=https://instagram.com/nanumerol?igshid=YmMyMTA2M2Y=><button class ="index__service-entry-insta"><svg class="index__ico-insta"  x="0" y="0" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M505,257c0,34.8-0.7,69.7,0.2,104.5c1.5,61.6-37.2,109.2-86.5,130.4c-19.8,8.5-40.6,13-62.1,13c-67.3,0.1-134.7,1-202-0.3   c-50.7-1-92.4-22.2-122.3-64c-15.7-22-23.2-47-23.2-74.1c0-71.7,0-143.3,0-215c0-58.5,28.5-99.4,79.1-126C110.2,14,134.1,9.1,159,9   c65.3,0,130.7-0.4,196,0.2c50.7,0.4,93,19.8,124.2,60.6c17.4,22.8,25.8,49,25.8,77.8C505,184,505,220.5,505,257z M46,257   c0,36.7,0,73.3,0,110c0,16.4,3.8,31.8,12.3,45.7c22.3,36.5,56,54.3,97.8,55c67.1,1,134.3,0.4,201.5,0.2c16.5,0,32.5-3.4,47.4-10.5   c40.6-19.4,63.3-50.3,63.1-96.7c-0.4-71-0.1-142-0.1-213c0-20.1-5.7-38.5-17.6-54.7c-23-31.1-54.8-46.4-92.8-46.8   c-67-0.8-134-0.3-201-0.2c-14.3,0-28.1,2.9-41.5,7.9c-36.8,13.7-71,48.4-69.4,99.5C46.9,188,46,222.5,46,257z"/><path d="M257.6,363c-64.5,0-116.5-51.4-116.6-115.4c-0.1-63,52.3-114.6,116.4-114.6c64.3-0.1,116.5,51.4,116.6,114.9   C374,311.3,321.9,362.9,257.6,363z M257.6,326c43.9,0,79.5-35.1,79.4-78.3c-0.1-42.8-35.7-77.8-79.4-77.8   c-43.9,0-79.7,34.9-79.7,78C178,291.1,213.7,326.1,257.6,326z"/><path d="M387.5,98c13.5,0,24.5,11.5,24.5,25.6c-0.1,14.1-11.2,25.5-24.7,25.4c-13.3-0.1-24.2-11.5-24.2-25.3   C363,109.6,374,98,387.5,98z"/></g></svg></button></a>
+                    </div>
+
+
+                    <section>
+                        <div class="review__wrp">
+                        <div class="review container">
+                            <h3 class="index__subtitle">Отзывы клиентов</h3>
+                            <div class="slider-review container">
+                                <ul class="review-item">
+                                    <li class="review-img"><img class="review-user-img" src="./img/user0.jpg" alt=""></li>
+                                    <li class="review-name"><p class="review-user-name">Екатерина</p></li>
+                                    <li class="review-text">
+                                        <p>Хочу поблагодарить Наталию за консультацию по «биологическим ритмам». Раньше мне казалось,  что самой нужно выяснить и решить во сколько тебе вставать, во сколько ложиться, когда ты работаешь, а когда отдыхаешь. На самом деле оказалось, что это можно посчитать! Меня очень сильно удивил личный график биоритмов, я получила очень интересный расчёт.</p>
+                                    </li>
+                                </ul>
+                                <ul class="review-item">
+                                    <li class="review-img"><img class="review-user-img" src="./img/useri.jpg" alt=""></li>
+                                    <li class="review-name"><p class="review-user-name">Илья</p></li>
+                                    <li class="review-text">
+                                        <p>Привет! Меня зовут Илья, мне 35лет. Заказал у Наталии консультацию и остался очень доволен. Полученная информация помогла взглянуть на мою жизнь со стороны и лучше понять,  в каком направлении двигаться и развиваться. Очень благодарен! Всем рекомендую.</p>
+                                    </li>
+                                </ul>
+                                <ul class="review-item">
+                                    <li class="review-img"><img class="review-user-img" src="./img/user2.jpg" alt=""></li>
+                                    <li class="review-name"><p class="review-user-name">Наталья</p></li>
+                                    <li class="review-text">
+                                        <p>Наташа, огромное спасибо за консультацию. Чуть не сбилась с курса. Но благодаря твоему "рассказу" обо мне поняла куда не нужно идти и чем лучше заняться. Как удивительно точно ты описала мои черты характера и вынула наружу то, на что совсем не обращала внимания, а стоило бы. </p>
+                                    </li>
+                                </ul>
+                                <ul class="review-item">
+                                    <li class="review-img"><img class="review-user-img" src="./img/user3.jpg" alt=""></li>
+                                    <li class="review-name"><p class="review-user-name">Екатерина</p></li>
+                                    <li class="review-text">
+                                        <p>Наташа, огромная тебе благодарность за консультацию по дате рождения, моей девочки! Мне очень понравилось, прям всё. Как ты описала её характеристики, на что обратить внимание, некоторые нюансы. Дочка растёт и я действительно вижу, что твои слова верны. И даже про её увлечения все верно. Я в лёгком шоке и ни капельки не жалею, что к тебе обратилась.</p>
+                                    </li>
+                                </ul>
+                                <ul class="review-item">
+                                    <li class="review-img"><img class="review-user-img" src="./img/user4.jpg" alt=""></li>
+                                    <li class="review-name"><p class="review-user-name">Анна</p></li>
+                                    <li class="review-text">
+                                        <p>Добрый вечер, Наталия
+                                            Хочу вам выразить огромную благодарность за подробную Нумерологию по дате рождения
+                                            Это что то невероятное, честное слово!!!Ваш Нумерологический разбор по дате рождения рассказал обо всех моих чертах характера, особенностях и жизненных моментах, в особенности на которые обратить внимание и подкорректировать в лучшую сторону! </p>
+                                    </li>
+                                </ul>
+                                <ul class="review-item">
+                                    <li class="review-img"><img class="review-user-img" src="./img/user5.jpg" alt=""></li>
+                                    <li class="review-name"><p class="review-user-name">Наталия</p></li>
+                                    <li class="review-text">
+                                        <p>Наташенька, спасибо тебе огромное дорогая! Это просто бомба-информация, которая поможет в жизни каждому человеку, даже тех кто не верил, их это затронет! Разложила всё по полочкам про меня и моего сынишку, прям как в воду глядела и говорила </p>
+                                    </li>
+                                </ul>
+                                <ul class="review-item">
+                                    <li class="review-img"><img class="review-user-img" src="./img/user6.jpg" alt=""></li>
+                                    <li class="review-name"><p class="review-user-name">Светлана</p></li>
+                                    <li class="review-text">
+                                        <p>Нумеролог Наталия сделала мне расклад по биоритмам (потому что, оказывается, для каждого он свой) и я была удивлена, всё чему я так противостояла, оказалось моим ритмом жизни! Вставать позже обычного и не активничать в первой половине дня - это и есть моя сила! Организм оказывается не обманешь и не нужно его "насиловать". </p>
+                                    </li>
+                                </ul>
+                                <ul class="review-item">
+                                    <li class="review-img"><img class="review-user-img" src="./img/user1.jpg" alt=""></li>
+                                    <li class="review-name"><p class="review-user-name">Светлана</p></li>
+                                    <li class="review-text">
+                                        <p>Наталия, доброе утро. Я очень благодарна вам за консультацию. Пока могу сказать только одно, что очень жалею, что не обратилась к нумерологии раньше. Сейчас мне 39 и я начала менять свою жизнь. Вы прочитали меня как книгу. На многие качества моей личности я не обращала внимание, пока мне не сказали, что они есть.</p>
+                                    </li>
+                                </ul>
+                                <a class="review-prev" onclick="minusSlideR()">&#10094;</a>
+                                <a class="review-next" onclick="plusSlideR()">&#10095;</a>
+                            </div>
+                            <div class="slider-review-dots">
+                                <span class="slider-review-dots_item" onclick="currentSlide(1)"></span> 
+                                <span class="slider-review-dots_item" onclick="currentSlide(2)"></span> 
+                                <span class="slider-review-dots_item" onclick="currentSlide(3)"></span>
+                                <span class="slider-review-dots_item" onclick="currentSlide(4)"></span> 
+                                <span class="slider-review-dots_item" onclick="currentSlide(5)"></span>
+                                <span class="slider-review-dots_item" onclick="currentSlide(6)"></span>
+                                <span class="slider-review-dots_item" onclick="currentSlide(7)"></span> 
+                                <span class="slider-review-dots_item" onclick="currentSlide(8)"></span> 
+                            </div>
+                        </div>
+                    </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+        <footer>
+            <div class="footer__background container">
+                <div class="footer__wrp">
+                    <div class="header__title">
+                        <h1 class="header__title-logo"><img class="header__title-svg" src="./img/ico/logo.svg" alt="">
+                            <span class="header__title-boo">Nanumerol.ru</span></h1>
+                            <div class="header__hidden-box"></div>
+                        </div>
+
+                    <div class="footer__copy">
+                    </div>
+                </div>
+        </footer>
+</body>
+</html>

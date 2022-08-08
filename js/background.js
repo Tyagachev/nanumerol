@@ -1,8 +1,8 @@
     var Obj = {
   circle: new Array(40),
-  radius: 550,
+  radius: 400,
   noise: 50,
-  speed: 0.08,
+  speed: 0.01,
   size: 600,
   
   //color a = background color; color b = object color 
