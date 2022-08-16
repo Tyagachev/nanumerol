@@ -1666,6 +1666,53 @@ canvas {
   color: red;
 }
 
+.footer__title-logo {
+  color: #fff;
+  font-size: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 889px) {
+  .footer__title-logo {
+    margin: 0 20px 0 20px;
+  }
+}
+
+.footer__title-svg {
+  width: 65px;
+}
+
+@media (max-width: 889px) {
+  .footer__title-svg {
+    width: 50px;
+  }
+}
+
+.footer__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__title-boo {
+  font-family: 'Parisienne';
+  font-size: 40px;
+}
+
+@media (max-width: 889px) {
+  .footer__title-boo {
+    font-size: 35px;
+  }
+}
+
 .footer__content {
   height: 350px;
 }

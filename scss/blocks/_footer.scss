@@ -1,6 +1,37 @@
 .footer {
 
+    &__title-logo {
+        color: #fff;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        //justify-content: center;
 
+        @media (max-width: $mobile-width) {
+            margin: 0 20px 0 20px;
+            }
+    }
+
+    &__title-svg{
+        width: 65px;
+
+        @media (max-width: $mobile-width) {
+            width: 50px;
+            }
+    }
+
+    &__title {
+        display: flex;
+        align-items: center;
+    }
+
+    &__title-boo {
+        font-family:'Parisienne';
+        font-size: 40px;
+        @media (max-width: $mobile-width) {
+            font-size: 35px;
+            }
+    };
     &__content {
         height: 350px;
 
