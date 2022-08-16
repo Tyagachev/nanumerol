@@ -1,2 +1,3 @@
 User-agent: Yandex
+User-agent: Googlebot
 Sitemap: https://nanumerol.ru/sitemap.xml

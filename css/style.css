@@ -309,13 +309,18 @@ body {
   max-width: 1440px;
   height: 100%;
   margin: 0 auto;
-  background-size: 100%;
-  background-attachment: fixed;
-  margin: 0 auto;
-  z-index: 20;
-  background-image: url(../img/bkg2.png);
-  background-size: auto;
-  background-position-x: 50%;
+background: hsla(280, 95%, 5%, 1);
+}
+
+.bcg {
+    background-image: url(../img/bkg2.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    margin: 0 auto;
+    background-position-x: 50%;
+    width: 100%;
+    height: 100vh;
+    z-index: -10;
 }
 
 .canvas_wrp {
@@ -1211,7 +1216,9 @@ canvas {
       grid-template-columns: repeat(3, 120px);
   -ms-grid-rows: (120px)[3];
       grid-template-rows: repeat(3, 120px);
-      grid-template-areas: "one four seven" "two five eight" "three six nine";
+      grid-template-areas: "one four seven"
+ "two five eight"
+ "three six nine";
 }
 
 .square__item {
