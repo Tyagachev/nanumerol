@@ -311,10 +311,11 @@ body {
   margin: 0 auto;
   background-size: 100%;
   background-attachment: fixed;
-  background-repeat: no-repeat;
   margin: 0 auto;
-  background: #110119;
   z-index: 20;
+  background-image: url(../img/bkg2.png);
+  background-size: auto;
+  background-position-x: 50%;
 }
 
 .canvas_wrp {
